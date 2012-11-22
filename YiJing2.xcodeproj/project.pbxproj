@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EABF2AB7165DE8A7000DA0BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABF2AB6165DE8A7000DA0BD /* UIKit.framework */; };
+		EABF2AB9165DE8A7000DA0BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABF2AB8165DE8A7000DA0BD /* Foundation.framework */; };
+		EABF2ABB165DE8A7000DA0BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABF2ABA165DE8A7000DA0BD /* CoreGraphics.framework */; };
+		EABF2AC1165DE8A7000DA0BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EABF2ABF165DE8A7000DA0BD /* InfoPlist.strings */; };
+		EABF2AC3165DE8A7000DA0BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EABF2AC2165DE8A7000DA0BD /* main.m */; };
+		EABF2AC7165DE8A7000DA0BD /* JoeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EABF2AC6165DE8A7000DA0BD /* JoeAppDelegate.m */; };
+		EABF2AC9165DE8A7000DA0BD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EABF2AC8165DE8A7000DA0BD /* Default.png */; };
+		EABF2ACB165DE8A7000DA0BD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EABF2ACA165DE8A7000DA0BD /* Default@2x.png */; };
+		EABF2ACD165DE8A7000DA0BD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EABF2ACC165DE8A7000DA0BD /* Default-568h@2x.png */; };
+		EABF2AD0165DE8A7000DA0BD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EABF2ACE165DE8A7000DA0BD /* MainStoryboard.storyboard */; };
+		EABF2AD3165DE8A7000DA0BD /* JoeMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABF2AD2165DE8A7000DA0BD /* JoeMainViewController.m */; };
+		EABF2AD6165DE8A7000DA0BD /* JoeFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABF2AD5165DE8A7000DA0BD /* JoeFlipsideViewController.m */; };
+		EABF2ADE165DE8A7000DA0BD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABF2ADD165DE8A7000DA0BD /* SenTestingKit.framework */; };
+		EABF2ADF165DE8A7000DA0BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABF2AB6165DE8A7000DA0BD /* UIKit.framework */; };
+		EABF2AE0165DE8A7000DA0BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABF2AB8165DE8A7000DA0BD /* Foundation.framework */; };
+		EABF2AE8165DE8A7000DA0BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EABF2AE6165DE8A7000DA0BD /* InfoPlist.strings */; };
+		EABF2AEB165DE8A7000DA0BD /* YiJing2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EABF2AEA165DE8A7000DA0BD /* YiJing2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EABF2AE1165DE8A7000DA0BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EABF2AA9165DE8A6000DA0BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EABF2AB1165DE8A6000DA0BD;
+			remoteInfo = YiJing2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EABF2AB2165DE8A6000DA0BD /* YiJing2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YiJing2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABF2AB6165DE8A7000DA0BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EABF2AB8165DE8A7000DA0BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EABF2ABA165DE8A7000DA0BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EABF2ABE165DE8A7000DA0BD /* YiJing2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YiJing2-Info.plist"; sourceTree = "<group>"; };
+		EABF2AC0165DE8A7000DA0BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EABF2AC2165DE8A7000DA0BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EABF2AC4165DE8A7000DA0BD /* YiJing2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YiJing2-Prefix.pch"; sourceTree = "<group>"; };
+		EABF2AC5165DE8A7000DA0BD /* JoeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JoeAppDelegate.h; sourceTree = "<group>"; };
+		EABF2AC6165DE8A7000DA0BD /* JoeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoeAppDelegate.m; sourceTree = "<group>"; };
+		EABF2AC8165DE8A7000DA0BD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EABF2ACA165DE8A7000DA0BD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EABF2ACC165DE8A7000DA0BD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EABF2ACF165DE8A7000DA0BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EABF2AD1165DE8A7000DA0BD /* JoeMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JoeMainViewController.h; sourceTree = "<group>"; };
+		EABF2AD2165DE8A7000DA0BD /* JoeMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoeMainViewController.m; sourceTree = "<group>"; };
+		EABF2AD4165DE8A7000DA0BD /* JoeFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JoeFlipsideViewController.h; sourceTree = "<group>"; };
+		EABF2AD5165DE8A7000DA0BD /* JoeFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoeFlipsideViewController.m; sourceTree = "<group>"; };
+		EABF2ADC165DE8A7000DA0BD /* YiJing2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YiJing2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABF2ADD165DE8A7000DA0BD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EABF2AE5165DE8A7000DA0BD /* YiJing2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YiJing2Tests-Info.plist"; sourceTree = "<group>"; };
+		EABF2AE7165DE8A7000DA0BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EABF2AE9165DE8A7000DA0BD /* YiJing2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YiJing2Tests.h; sourceTree = "<group>"; };
+		EABF2AEA165DE8A7000DA0BD /* YiJing2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YiJing2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EABF2AAF165DE8A6000DA0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABF2AB7165DE8A7000DA0BD /* UIKit.framework in Frameworks */,
+				EABF2AB9165DE8A7000DA0BD /* Foundation.framework in Frameworks */,
+				EABF2ABB165DE8A7000DA0BD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABF2AD8165DE8A7000DA0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABF2ADE165DE8A7000DA0BD /* SenTestingKit.framework in Frameworks */,
+				EABF2ADF165DE8A7000DA0BD /* UIKit.framework in Frameworks */,
+				EABF2AE0165DE8A7000DA0BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EABF2AA7165DE8A6000DA0BD = {
+			isa = PBXGroup;
+			children = (
+				EABF2ABC165DE8A7000DA0BD /* YiJing2 */,
+				EABF2AE3165DE8A7000DA0BD /* YiJing2Tests */,
+				EABF2AB5165DE8A7000DA0BD /* Frameworks */,
+				EABF2AB3165DE8A6000DA0BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EABF2AB3165DE8A6000DA0BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EABF2AB2165DE8A6000DA0BD /* YiJing2.app */,
+				EABF2ADC165DE8A7000DA0BD /* YiJing2Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EABF2AB5165DE8A7000DA0BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EABF2AB6165DE8A7000DA0BD /* UIKit.framework */,
+				EABF2AB8165DE8A7000DA0BD /* Foundation.framework */,
+				EABF2ABA165DE8A7000DA0BD /* CoreGraphics.framework */,
+				EABF2ADD165DE8A7000DA0BD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EABF2ABC165DE8A7000DA0BD /* YiJing2 */ = {
+			isa = PBXGroup;
+			children = (
+				EABF2AC5165DE8A7000DA0BD /* JoeAppDelegate.h */,
+				EABF2AC6165DE8A7000DA0BD /* JoeAppDelegate.m */,
+				EABF2ACE165DE8A7000DA0BD /* MainStoryboard.storyboard */,
+				EABF2AD1165DE8A7000DA0BD /* JoeMainViewController.h */,
+				EABF2AD2165DE8A7000DA0BD /* JoeMainViewController.m */,
+				EABF2AD4165DE8A7000DA0BD /* JoeFlipsideViewController.h */,
+				EABF2AD5165DE8A7000DA0BD /* JoeFlipsideViewController.m */,
+				EABF2ABD165DE8A7000DA0BD /* Supporting Files */,
+			);
+			path = YiJing2;
+			sourceTree = "<group>";
+		};
+		EABF2ABD165DE8A7000DA0BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EABF2ABE165DE8A7000DA0BD /* YiJing2-Info.plist */,
+				EABF2ABF165DE8A7000DA0BD /* InfoPlist.strings */,
+				EABF2AC2165DE8A7000DA0BD /* main.m */,
+				EABF2AC4165DE8A7000DA0BD /* YiJing2-Prefix.pch */,
+				EABF2AC8165DE8A7000DA0BD /* Default.png */,
+				EABF2ACA165DE8A7000DA0BD /* Default@2x.png */,
+				EABF2ACC165DE8A7000DA0BD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EABF2AE3165DE8A7000DA0BD /* YiJing2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EABF2AE9165DE8A7000DA0BD /* YiJing2Tests.h */,
+				EABF2AEA165DE8A7000DA0BD /* YiJing2Tests.m */,
+				EABF2AE4165DE8A7000DA0BD /* Supporting Files */,
+			);
+			path = YiJing2Tests;
+			sourceTree = "<group>";
+		};
+		EABF2AE4165DE8A7000DA0BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EABF2AE5165DE8A7000DA0BD /* YiJing2Tests-Info.plist */,
+				EABF2AE6165DE8A7000DA0BD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EABF2AB1165DE8A6000DA0BD /* YiJing2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EABF2AEE165DE8A7000DA0BD /* Build configuration list for PBXNativeTarget "YiJing2" */;
+			buildPhases = (
+				EABF2AAE165DE8A6000DA0BD /* Sources */,
+				EABF2AAF165DE8A6000DA0BD /* Frameworks */,
+				EABF2AB0165DE8A6000DA0BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YiJing2;
+			productName = YiJing2;
+			productReference = EABF2AB2165DE8A6000DA0BD /* YiJing2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EABF2ADB165DE8A7000DA0BD /* YiJing2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EABF2AF1165DE8A7000DA0BD /* Build configuration list for PBXNativeTarget "YiJing2Tests" */;
+			buildPhases = (
+				EABF2AD7165DE8A7000DA0BD /* Sources */,
+				EABF2AD8165DE8A7000DA0BD /* Frameworks */,
+				EABF2AD9165DE8A7000DA0BD /* Resources */,
+				EABF2ADA165DE8A7000DA0BD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EABF2AE2165DE8A7000DA0BD /* PBXTargetDependency */,
+			);
+			name = YiJing2Tests;
+			productName = YiJing2Tests;
+			productReference = EABF2ADC165DE8A7000DA0BD /* YiJing2Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EABF2AA9165DE8A6000DA0BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Joe;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Joseph Kung";
+			};
+			buildConfigurationList = EABF2AAC165DE8A6000DA0BD /* Build configuration list for PBXProject "YiJing2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EABF2AA7165DE8A6000DA0BD;
+			productRefGroup = EABF2AB3165DE8A6000DA0BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EABF2AB1165DE8A6000DA0BD /* YiJing2 */,
+				EABF2ADB165DE8A7000DA0BD /* YiJing2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EABF2AB0165DE8A6000DA0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABF2AC1165DE8A7000DA0BD /* InfoPlist.strings in Resources */,
+				EABF2AC9165DE8A7000DA0BD /* Default.png in Resources */,
+				EABF2ACB165DE8A7000DA0BD /* Default@2x.png in Resources */,
+				EABF2ACD165DE8A7000DA0BD /* Default-568h@2x.png in Resources */,
+				EABF2AD0165DE8A7000DA0BD /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABF2AD9165DE8A7000DA0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABF2AE8165DE8A7000DA0BD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EABF2ADA165DE8A7000DA0BD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EABF2AAE165DE8A6000DA0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABF2AC3165DE8A7000DA0BD /* main.m in Sources */,
+				EABF2AC7165DE8A7000DA0BD /* JoeAppDelegate.m in Sources */,
+				EABF2AD3165DE8A7000DA0BD /* JoeMainViewController.m in Sources */,
+				EABF2AD6165DE8A7000DA0BD /* JoeFlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABF2AD7165DE8A7000DA0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABF2AEB165DE8A7000DA0BD /* YiJing2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EABF2AE2165DE8A7000DA0BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EABF2AB1165DE8A6000DA0BD /* YiJing2 */;
+			targetProxy = EABF2AE1165DE8A7000DA0BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EABF2ABF165DE8A7000DA0BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EABF2AC0165DE8A7000DA0BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EABF2ACE165DE8A7000DA0BD /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EABF2ACF165DE8A7000DA0BD /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		EABF2AE6165DE8A7000DA0BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EABF2AE7165DE8A7000DA0BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EABF2AEC165DE8A7000DA0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EABF2AED165DE8A7000DA0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EABF2AEF165DE8A7000DA0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YiJing2/YiJing2-Prefix.pch";
+				INFOPLIST_FILE = "YiJing2/YiJing2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EABF2AF0165DE8A7000DA0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YiJing2/YiJing2-Prefix.pch";
+				INFOPLIST_FILE = "YiJing2/YiJing2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EABF2AF2165DE8A7000DA0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YiJing2.app/YiJing2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YiJing2/YiJing2-Prefix.pch";
+				INFOPLIST_FILE = "YiJing2Tests/YiJing2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EABF2AF3165DE8A7000DA0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YiJing2.app/YiJing2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YiJing2/YiJing2-Prefix.pch";
+				INFOPLIST_FILE = "YiJing2Tests/YiJing2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EABF2AAC165DE8A6000DA0BD /* Build configuration list for PBXProject "YiJing2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABF2AEC165DE8A7000DA0BD /* Debug */,
+				EABF2AED165DE8A7000DA0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EABF2AEE165DE8A7000DA0BD /* Build configuration list for PBXNativeTarget "YiJing2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABF2AEF165DE8A7000DA0BD /* Debug */,
+				EABF2AF0165DE8A7000DA0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EABF2AF1165DE8A7000DA0BD /* Build configuration list for PBXNativeTarget "YiJing2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABF2AF2165DE8A7000DA0BD /* Debug */,
+				EABF2AF3165DE8A7000DA0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EABF2AA9165DE8A6000DA0BD /* Project object */;
+}
